@@ -81,7 +81,7 @@ console.log(typeof h) // "undefined"
 let student = {
     name: "John",
     age: 20,
-    score: 10
+    scores: [10,9,8]
 }
 
 console.log(student)
@@ -106,6 +106,11 @@ let bool = true
 
 let boolString = String(bool)
 console.log(typeof boolString)
+
+console.log(num, typeof num)
+console.log(numString, typeof numString)
+console.log(boolString, typeof boolString)
+
 
 
 // 🔵 Phần 5: Truthy / Falsy (tư duy logic)
